@@ -9,4 +9,6 @@ public class FreeCRMConstants {
 	public static String CONTACTS_HEADER_NAME = "Contacts";
 
 	public static String CONTACTS_SHEETNAME = "Contacts";
+	
+	public static String CONTACTS_NAME="Nayana";
 }
