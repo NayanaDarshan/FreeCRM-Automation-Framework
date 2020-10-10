@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Free CRM Test automtion regression suite]">
+  <listeners>
+    <listener class-name="com.qa.FreeCRM.Listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="Login page Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.FreeCRM.PageTest.LoginPageTest">
+        <methods>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.qa.FreeCRM.PageTest.LoginPageTest -->
+    </classes>
+  </test> <!-- Login page Test(failed) -->
+</suite> <!-- Failed suite [Free CRM Test automtion regression suite] -->
