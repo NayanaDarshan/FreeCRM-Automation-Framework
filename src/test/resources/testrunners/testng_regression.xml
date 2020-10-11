@@ -22,10 +22,10 @@
 
 <listeners>
 
-<!-- <listener class-name="com.qa.FreeCRM.Listeners.ExtentReportListener"/>
+ <listener class-name="com.qa.FreeCRM.Listeners.ExtentReportListener"/>
 <listener class-name="com.qa.FreeCRM.Listeners.ScreenshotListener"/>
-<listener class-name="com.qa.FreeCRM.Listeners.pdfListener"/> -->
-<!-- <listener class-name="com.qa.FreeCRM.Listeners.TestAllureListener"/> -->
+<listener class-name="com.qa.FreeCRM.Listeners.pdfListener"/> 
+ <listener class-name="com.qa.FreeCRM.Listeners.TestAllureListener"/> 
 <listener class-name="com.qa.FreeCRM.Listeners.TesultsListener"/>
 
 </listeners>
