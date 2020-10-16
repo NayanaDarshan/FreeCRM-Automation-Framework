@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Free CRM Test automtion regression suite"
+	verbose="3">
+
+	
+<!-- 	<test name="Login page Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.qa.hubspot.PageTest.LoginPageTest" />
+		</classes>
+
+	</test> -->
+
+	<!-- <test name="Home page Test"> 
+	    <parameter name="browser" value="chrome" /> 
+	<classes> 
+	<class name="com.qa.hubspot.PageTest.HomePageTest" /> </classes> 
+   </test> -->
+
+<listeners>
+
+ <listener class-name="com.qa.FreeCRM.Listeners.ExtentReportListener"/>
+<listener class-name="com.qa.FreeCRM.Listeners.ScreenshotListener"/>
+<listener class-name="com.qa.FreeCRM.Listeners.pdfListener"/> 
+ <listener class-name="com.qa.FreeCRM.Listeners.TestAllureListener"/> 
+<listener class-name="com.qa.FreeCRM.Listeners.TesultsListener"/>
+
+</listeners>
+
+	<test name="Login page Test"> 
+	    <parameter name="browser" value="chrome" /> 
+	    <classes> <class name="com.qa.FreeCRM.PageTest.LoginPageTest" /> </classes> 
+		</test>
+
+<test name="Home page Test"> 
+	    <parameter name="browser" value="chrome" /> 
+	    <classes> <class name="com.qa.FreeCRM.PageTest.HomePageTest" /> </classes> 
+		</test>
+
+
+
+</suite>
