@@ -47,6 +47,7 @@ public class LoginPageTest {
 	public void verifyLoginPageTitleTest() {
 		String title = loginpage.getLoginPageTitle();
 		System.out.println("The Title is===>" + title);
+		System.out.println("Testing the ngrok setup");
 		Assert.assertEquals(title, FreeCRMConstants.LOGIN_TITLE_NAME, "The Login page title is same");
 		//Assert.assertEquals(title, "NayanaMR", "The Login page title is same");
 	}

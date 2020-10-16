@@ -1,7 +1,12 @@
 com\qa\FreeCRM\Pages\LoginPage.class
 com\qa\FreeCRM\Constants\FreeCRMConstants.class
+com\qa\FreeCRM\Listeners\pdfListener.class
+com\qa\FreeCRM\Listeners\ScreenshotListener.class
+com\qa\FreeCRM\Listeners\TesultsListener.class
 com\qa\FreeCRM\Utilis\ExcelUtil.class
 com\qa\FreeCRM\base\BasePage.class
+com\qa\FreeCRM\Listeners\ExtentReportListener.class
 com\qa\FreeCRM\Pages\ContactsPage.class
 com\qa\FreeCRM\base\BaseTest.class
+com\qa\FreeCRM\Listeners\TestAllureListener.class
 com\qa\FreeCRM\Pages\HomePage.class

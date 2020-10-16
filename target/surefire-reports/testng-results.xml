@@ -1,29 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="13056" started-at="2020-10-02T17:50:15Z" finished-at="2020-10-02T17:50:28Z">
+  <suite name="Free CRM Test automtion regression suite" duration-ms="49073" started-at="2020-10-11T09:56:51Z" finished-at="2020-10-11T09:57:40Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="13056" started-at="2020-10-02T17:50:15Z" finished-at="2020-10-02T17:50:28Z">
+    <test name="Login page Test" duration-ms="24893" started-at="2020-10-11T09:56:51Z" finished-at="2020-10-11T09:57:16Z">
       <class name="com.qa.FreeCRM.PageTest.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@68be2bc2]" name="setup" is-config="true" duration-ms="12067" started-at="2020-10-02T17:50:15Z" finished-at="2020-10-02T17:50:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@aec50a1]" name="setup" is-config="true" duration-ms="23168" started-at="2020-10-11T09:56:51Z" finished-at="2020-10-11T09:57:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@68be2bc2]" name="verifyLoginPageTitleTest" duration-ms="8" started-at="2020-10-02T17:50:27Z" finished-at="2020-10-02T17:50:27Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@aec50a1]" name="verifyLoginPageTitleTest" duration-ms="146" started-at="2020-10-11T09:57:14Z" finished-at="2020-10-11T09:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@68be2bc2]" name="verifyLoginTest" duration-ms="264" started-at="2020-10-02T17:50:27Z" finished-at="2020-10-02T17:50:27Z">
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@aec50a1]" name="verifyLoginTest" duration-ms="533" started-at="2020-10-11T09:57:15Z" finished-at="2020-10-11T09:57:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@68be2bc2]" name="teardown" is-config="true" duration-ms="705" started-at="2020-10-02T17:50:27Z" finished-at="2020-10-02T17:50:28Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FreeCRM.PageTest.LoginPageTest@aec50a1]" name="teardown" is-config="true" duration-ms="740" started-at="2020-10-11T09:57:15Z" finished-at="2020-10-11T09:57:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.qa.FreeCRM.PageTest.LoginPageTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+    </test> <!-- Login page Test -->
+    <test name="Home page Test" duration-ms="24121" started-at="2020-10-11T09:57:16Z" finished-at="2020-10-11T09:57:40Z">
+      <class name="com.qa.FreeCRM.PageTest.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.FreeCRM.PageTest.HomePageTest@3d4d3fe7]" name="setup" is-config="true" duration-ms="21016" started-at="2020-10-11T09:57:16Z" finished-at="2020-10-11T09:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePageSetup()[pri:0, instance:com.qa.FreeCRM.PageTest.HomePageTest@3d4d3fe7]" name="homePageSetup" is-config="true" duration-ms="610" started-at="2020-10-11T09:57:37Z" finished-at="2020-10-11T09:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSetup -->
+        <test-method status="PASS" signature="verifyUserProfileTest()[pri:0, instance:com.qa.FreeCRM.PageTest.HomePageTest@3d4d3fe7]" name="verifyUserProfileTest" duration-ms="1746" started-at="2020-10-11T09:57:38Z" finished-at="2020-10-11T09:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserProfileTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.qa.FreeCRM.PageTest.HomePageTest@3d4d3fe7]" name="teardown" is-config="true" duration-ms="745" started-at="2020-10-11T09:57:40Z" finished-at="2020-10-11T09:57:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.qa.FreeCRM.PageTest.HomePageTest -->
+    </test> <!-- Home page Test -->
+  </suite> <!-- Free CRM Test automtion regression suite -->
 </testng-results>
